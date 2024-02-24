@@ -21,7 +21,7 @@ parser = JSONParser()
 
 incomplete_json = '{"name": "John", "age": 30, "is_student": false, "courses": ["Math", "Science"'
 print(parser.parse(incomplete_json))
-# {'name': 'John', 'age': 30, 'is_student': False, 'courses': ['Math', 'Science']}
+# ({'name': 'John', 'age': 30, 'is_student': False, 'courses': ['Math', 'Science']}, ["name", "age", "is_student"])
 ```
 
 ### Installation
